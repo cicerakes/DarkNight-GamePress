@@ -1,0 +1,859 @@
+/* ==UserStyle==
+@name           Dark/Night GamePress
+@namespace      cicerakes
+@version        0.1.0
+@description	A dark/night theme for gamepress.gg.
+@author			cicerakes
+@license		CC-BY-SA-4.0
+@homepageURL	https://github.com/cicerakes/DarkNight-GamePress/
+@supportURL		https://github.com/cicerakes/DarkNight-GamePress/issues
+@updateURL		https://raw.githubusercontent.com/cicerakes/DarkNight-GamePress/master/DarkNightGP.user.css
+@preprocessor	uso
+@var select		cSb		"Custom Scrollbar" {
+	"Enabled": "::-webkit-scrollbar{background-color:/*[[sbBgCol]]*\/;width: 15px}::-webkit-scrollbar-thumb{background-color:/*[[sbBCol]]*\/}::-webkit-scrollbar-thumb:hover{background-color:/*[[sbBHCol]]*\/}textarea::-webkit-scrollbar:vertical{border-left:1px solid #3e3e3e}textarea::-webkit-scrollbar-thumb:vertical{border-left:1px solid #3e3e3e}textarea::-webkit-scrollbar:horizontal{border-top:1px solid #3e3e3e}textarea::-webkit-scrollbar-thumb:horizontal{border-top:1px solid #3e3e3e}::-webkit-scrollbar-corner{background-color:/*[[sbBgCol]]*\/}",
+	"Disabled": ""
+}
+@var color		sbBgCol	"Scrollbar Background Colour" #262626
+@var color		sbBCol	"Scrollbar Bar Colour" rgba(86,86,86,0.4)
+@var color		sbBHCol	"Scrollbar Bar Hover Colour" rgba(102,102,102,0.4)
+==/UserStyle== */
+
+/*
+| #d2d8ef | #3e3e3e | (temporary)
+sass colours 50,40
+*/
+
+@-moz-document regexp("https?://(?!community\\.)(.*\\.)?gamepress\\.gg.*") {
+	body {
+		background-color: #0e0e0e;
+		color: #cecece;
+	}
+
+	#content-inner, .gameguides {
+		background-color: #1e1e1e;
+	}
+
+	/*[[cSb]]*/
+
+	th, table tbody td, table thead th {
+		border-color: #3e3e3e !important;
+	}
+
+	th {
+		background: #242424;
+	}
+
+	hr {
+		border-color: #2e2e2e !important;
+	}
+
+	input[type="color"], input[type="date"], input[type="datetime"], input[type="datetime-local"], input[type="email"], input[type="month"], input[type="number"], input[type="password"], input[type="search"], input[type="tel"], input[type="text"], input[type="time"], input[type="url"], input[type="week"], input:not([type]), textarea, select[multiple=multiple] {
+		background-color: #171717;
+		border-color: #2e2e2e;
+	}
+
+	input[type="color"]:hover, input[type="date"]:hover, input[type="datetime"]:hover, input[type="datetime-local"]:hover, input[type="email"]:hover, input[type="month"]:hover, input[type="number"]:hover, input[type="password"]:hover, input[type="search"]:hover, input[type="tel"]:hover, input[type="text"]:hover, input[type="time"]:hover, input[type="url"]:hover, input[type="week"]:hover, input:not([type]):hover, textarea:hover, select[multiple=multiple]:hover {
+		border-color: #4e4e4e;
+	}
+
+	select {
+		background-color: #171717;
+		border-color: #3e3e3e;
+	}
+
+	.menu-container {
+		border-color: #3e3e3e;
+		background-color: #1e1e1e;
+	}
+
+	.menu-container .menu--top-menu li a, .menu-container .menu--top-menu li:last-child a, header#site-header .outer-wrapper {
+		color: #c9c9c9;
+		border-color: #3e3e3e;
+	}
+
+	.easy-autocomplete-container ul {
+		background-color: #171717;
+	}
+
+	.easy-autocomplete-container ul li.selected {
+		background-color: #2e2e2e;
+	}
+
+	.easy-autocomplete-container ul li, .easy-autocomplete-container ul .eac-category {
+		border-color: #4e4e4e;
+	}
+
+	button.submit-error-button {
+		background: #171717;
+		border-color: #2e2e2e;
+	}
+
+	#site-footer {
+		background: #1e1e1e;
+		border-color: #3e3e3e;
+	}
+
+	#site-footer section.footer-top, #site-footer #block-footerblocktext p[style="color: #636363;font-size: 12px;border-top: 1px solid #e2e2e2;padding-top: 20px;"] {
+		border-color: #2e2e2e !important;
+	}
+
+	.view-home-page-news-feed .views-row {
+		border-color: #2e2e2e;
+	}
+
+	.view-home-page-news-feed span.post-type {
+		color: #cecece;
+	}
+
+	.view-home-page-news-feed span.post-created-date {
+		color: #6e6e6e;
+	}
+
+	.menu-c {
+		background: #1e1e1e;
+	}
+
+	.menu-c .menu-item--expanded span {
+		background: #2e2e2e;
+		color: #cecece;
+	}
+
+	#block-mainnavigation-2 .menu-item--expanded .menu li span, #block-mainnavigation .menu-item--expanded .menu li span {
+		border-color: #7e7e7e;
+	}
+
+	.news-row {
+		border-color: #3e3e3e;
+	}
+
+	.news-right-text {
+		background: #252525;
+	}
+
+	#block-views-block-popular-pages-block-3, #block-views-block-popular-pages-block-4, #block-views-block-popular-pages-block-2, #block-views-block-popular-pages-block-1 {
+		background: #1e1e1e;
+	}
+
+	#block-views-block-popular-pages-block-3 li a, #block-views-block-popular-pages-block-4 li a, #block-views-block-popular-pages-block-2 li a, #block-views-block-popular-pages-block-1 li a {
+		border-color: #2e2e2e;
+	}
+
+	#block-views-block-popular-pages-block-3 .view-footer, #block-views-block-popular-pages-block-4 .view-footer, #block-views-block-popular-pages-block-2 .view-footer, #block-views-block-popular-pages-block-1 .view-footer {
+		border-color: #2e2e2e;
+	}
+
+	#block-views-block-popular-pages-block-3 .pages-ranking-item .pages-ranking-number, #block-views-block-popular-pages-block-4 .pages-ranking-item .pages-ranking-number, #block-views-block-popular-pages-block-2 .pages-ranking-item .pages-ranking-number, #block-views-block-popular-pages-block-1 .pages-ranking-item .pages-ranking-number {
+		background: #171717;
+		box-shadow: 1px 3px 3px #090909;
+	}
+
+	.gameguides li a, #block-gamestopsection-2, #block-gamestopsection {
+		background: #1e1e1e;
+	}
+
+	.gameguides li a, .gameguides li:last-child a, #block-gamestopsection-2 li, #block-gamestopsection li {
+		border-color: #2e2e2e;
+	}
+
+	#announcement {
+		background: #171717;
+		border-color: #3e3e3e;
+		box-shadow: 0 0 5px #444;
+	}
+
+	#announcement .announcement-text {
+		color: #bfbfbf;
+	}
+
+	.field.field--name-field-time-text {
+		background: #252525;
+		border-color: #2e2e2e;
+	}
+
+	span.field-timer-jquery-countdown.is-countdown {
+		border-color: #2e2e2e;
+	}
+
+	#hero-table-contents a, #servant-table-contents a, #char-table-contents a {
+		background: #171717;
+		border-color: #3e3e3e;
+	}
+
+	#hero-table-contents a:hover, #servant-table-contents a:hover, #char-table-contents a:hover {
+		background: #1e1e1e;
+	}
+
+	#hero-stats span.stat-text, #servant-stats span.stat-text {
+		border-color: #171717;
+	}
+
+	#hero-stats .header-stats, #servant-stats .header-stats {
+		background: #252525;
+	}
+
+	.title-full {
+		background: #1c2025;
+	}
+
+	.paragraph--type--table-of-contents {
+		border-color: #2e2e2e;
+		background-color: #171717;
+	}
+
+	#content-inner .field--type-text-long h3, #block-gamepressbase-content .field--name-field-title, #block-gamepressbase-content .sub-title {
+		background: #323232;
+		border-color: #515151;
+	}
+
+	.social-media-links a {
+		background: #1f1f1f !important;
+	}
+
+	div#page-title {
+		background: #171717;
+		border-color: #2e2e2e;
+	}
+
+	.field--name-field-page-description {
+		border-color: #2e2e2e;
+		color: #b3b3b3;
+	}
+
+	#socail-media-links {
+		display: none;
+	}
+
+	.no-expl {
+		background: #1c2025;
+	}
+
+	.show-expl {
+		background-color: #2e4d33 !important;
+	}
+
+	.view-arena-offense-tier-list .views-row, .view-new-tier-lists .views-row {
+		border-color: #3e3e3e;
+	}
+
+	.view-na-tier-list-node .views-row {
+		background: #171717;
+		border-color: #2e2e2e;
+	}
+
+	.modal-content {
+		background-color: #1f1f1f;
+	}
+
+	.paragraph .field--name-field-title {
+		background: #252525;
+		border-color: #343434;
+	}
+
+	blockquote  {
+		border-left-color: #1c2025;
+		background: #212121;
+	}
+
+	.awesomplete>ul {
+		background: #171717;
+	}
+
+	.awesomplete>ul>li:hover {
+		background: #1c2025;
+		color: inherit;
+	}
+
+	ul.tabs-map-team li.current, ul.tabs-map-image li.current, ul.tabs-map li.current, ul.tabs-images li.current, ul.tabs-stats li.current, ul.tabs-mc li.current {
+		background: #171717;
+	}
+
+	ul.tabs-images li, ul.tabs-mc li {
+		background: #171717;
+		border-color: #2e2e2e;
+	}
+
+	.field--name-field-featured-content-list .field__item {
+		border-color: #3e3e3e;
+	}
+
+	.field--name-field-featured-content-list a .field__item:hover {
+		background: #2e2e2e;
+	}
+
+	.field--name-field-featured-content-list a {
+		color: #cecece;
+	}
+
+	.content-2-group-item {
+		background: #171717;
+		border-color: #3e3e3e;
+		box-shadow: 0 0 5px #3e3e3e;
+	}
+
+	.paragraph--type--featured-content div>div:hover {
+		box-shadow: 0 0 15px #646464;
+	}
+
+	input#js-search-1, input#js-search-2, input#js-search {
+		background-color: #2e2e2e;
+		border-color: #2e2e2e;
+	}
+
+	.feedback-form-gp a {
+		background-color: #2e2e2e;
+		color: #cecece;
+	}
+	.feedback-form-gp {
+		border-color: #2e2e2e;
+	}
+	.gameguides a.featured-button {
+		border-color: #3076b2 !important;
+	}
+	ul.tabs-paragraph li {
+		background: #171717;
+		border-color: #2e2e2e;
+	}
+	ul.tabs-paragraph li.current {
+		background: #212121;
+	}
+	.core-last-updated-date, span.cl-toggle, #block-change-log {
+		border-color: #2e2e2e;
+	}
+	#block-last-updated-date span.lu-date, span.cl-toggle, #block-change-log {
+		color: #b3b3b3;
+	}
+	ul.menu a.is-active {
+		color: #cecece;
+	}
+	.feedback-form-gp-2 {
+		background: #1c2025;
+	}
+	.feedback-form-gp-2 a {
+		background: #171717;
+		color: #b3b3b3;
+	}
+	
+	.paragraph--type--block .discourse-feed-posts {
+		background-color: #171717;
+		border-color: #2e2e2e;
+	}
+	#block-latestposts {
+		background-color: #1e1e1e;
+	}
+	#block-latestposts .discourse-feed-posts {
+		border-color: #2e2e2e;
+	}
+	
+	.field--name-field-author-credit {
+		background-color: #171717;
+	}
+
+	.active {
+		background: #2e2e2e;
+	}
+}
+
+@-moz-document domain("fireemblem.gamepress.gg") {
+	.paragraph--type--summon-units-4-featured- .summon-hero-container, .paragraph--type--summon-units-4-featured- .summon-hero-rating, .paragraph--type--summon-units-3-featured- .summon-hero-container, .paragraph--type--summon-units-3-featured- .summon-hero-rating {
+		background: #171717;
+		border-color: #2e2e2e;
+	}
+
+	.view-guides .view-grouping-header {
+		background: #1c2025;
+	}
+
+	.view-guides caption {
+		background: #252525;
+		border-color: #2e2e2e;
+	}
+
+	.hero-images-cont {
+		border-color: #2e2e2e;
+	}
+
+	.view-skills-node .views-row, .view-skills-node .feh-list-item, .feh-list-parent .views-row, .feh-list-parent .feh-list-item {
+		border-color: #3e3e3e;
+	}
+
+	.hero-stats-container, div#max-stats .max-stats-title {
+		background: #171717;
+		border-color: #272727;
+	}
+
+	div#max-stats .max-stats-container {
+		background: #252525;
+	}
+
+	#hero-stats span#hp-bar {
+		background: #4C6703;
+	}
+
+	#hero-stats span#attack-bar {
+		background: #B13B3B;
+	}
+
+	#hero-stats span#speed-bar {
+		background: #1B7499;
+	}
+
+	#hero-stats span#defense-bar {
+		background: #363636;
+	}
+
+	#hero-stats span#res-bar {
+		background: #6E4977;
+	}
+
+	div[style="border-bottom: 5px solid #fff;"].header-stats {
+		border-color: #171717 !important;
+	}
+
+	#stats-iv .sub-title-stats {
+		border-color: #343434;
+		background: #252525;
+	}
+
+	.stat-variation-tabs .star-filter, .stat-variation-tabs-max .star-filter-max {
+		background: #171717;
+	}
+
+	.stat-variation-tabs .active, .stat-variation-tabs-max .active {
+		background: #1c2025 !important;
+	}
+
+	.weapon-toggle {
+		border-left-color: #3e3e3e;
+	}
+
+	.weapon-toggle input {
+		filter: invert(1);
+	}
+
+	.view-skill-sets .views-field.views-field-field-set-name {
+		background: #171717;
+		border-color: #4e4e4e;
+	}
+
+	.optimal-build {
+		background: #171717;
+	}
+
+	.show-explanation-button {
+		background: #171717;
+		border-color: #2e2e2e;
+	}
+
+	.view-featured-user-hero-builds .views-field.views-field-uid {
+		background: #252525;
+		border-color: #343434;
+	}
+
+	.view-user-hero-build-statistics-page .views-field.views-field-field-hero-icon {
+		border-color: #3e3e3e;
+	}
+
+	ul.tabs-stats li {
+		background: #171717;
+		border-color: #2e2e2e;
+		color: #cecece;
+	}
+
+	.node--type-sacred-seals article, #sacred-seals article, .node--type-passive-skills article, #passive-skills article, .node--type-command-skills article, #command-skills article, .node--type-special-skills article, #special-skills article, .node--type-weapon-skills article, #weapon-skills article {
+		background: #171717;
+	}
+
+	.node--type-sacred-seals .field--name-field-passive-skills-sp-cost, #sacred-seals .field--name-field-passive-skills-sp-cost, .node--type-passive-skills .field--name-field-passive-skills-sp-cost, #passive-skills .field--name-field-passive-skills-sp-cost, .node--type-command-skills .field--name-field-passive-skills-sp-cost, #command-skills .field--name-field-passive-skills-sp-cost, .node--type-special-skills .field--name-field-passive-skills-sp-cost, #special-skills .field--name-field-passive-skills-sp-cost, .node--type-weapon-skills .field--name-field-passive-skills-sp-cost, #weapon-skills .field--name-field-passive-skills-sp-cost, .node--type-sacred-seals .field--name-field-special-skills-sp-cost, #sacred-seals .field--name-field-special-skills-sp-cost, .node--type-passive-skills .field--name-field-special-skills-sp-cost, #passive-skills .field--name-field-special-skills-sp-cost, .node--type-command-skills .field--name-field-special-skills-sp-cost, #command-skills .field--name-field-special-skills-sp-cost, .node--type-special-skills .field--name-field-special-skills-sp-cost, #special-skills .field--name-field-special-skills-sp-cost, .node--type-weapon-skills .field--name-field-special-skills-sp-cost, #weapon-skills .field--name-field-special-skills-sp-cost, .node--type-sacred-seals .field--name-field-special-skill-turn-require, #sacred-seals .field--name-field-special-skill-turn-require, .node--type-passive-skills .field--name-field-special-skill-turn-require, #passive-skills .field--name-field-special-skill-turn-require, .node--type-command-skills .field--name-field-special-skill-turn-require, #command-skills .field--name-field-special-skill-turn-require, .node--type-special-skills .field--name-field-special-skill-turn-require, #special-skills .field--name-field-special-skill-turn-require, .node--type-weapon-skills .field--name-field-special-skill-turn-require, #weapon-skills .field--name-field-special-skill-turn-require, .node--type-sacred-seals .field--name-field-command-skills-sp-requirem, #sacred-seals .field--name-field-command-skills-sp-requirem, .node--type-passive-skills .field--name-field-command-skills-sp-requirem, #passive-skills .field--name-field-command-skills-sp-requirem, .node--type-command-skills .field--name-field-command-skills-sp-requirem, #command-skills .field--name-field-command-skills-sp-requirem, .node--type-special-skills .field--name-field-command-skills-sp-requirem, #special-skills .field--name-field-command-skills-sp-requirem, .node--type-weapon-skills .field--name-field-command-skills-sp-requirem, #weapon-skills .field--name-field-command-skills-sp-requirem, .node--type-sacred-seals .field--name-field-command-skill-range, #sacred-seals .field--name-field-command-skill-range, .node--type-passive-skills .field--name-field-command-skill-range, #passive-skills .field--name-field-command-skill-range, .node--type-command-skills .field--name-field-command-skill-range, #command-skills .field--name-field-command-skill-range, .node--type-special-skills .field--name-field-command-skill-range, #special-skills .field--name-field-command-skill-range, .node--type-weapon-skills .field--name-field-command-skill-range, #weapon-skills .field--name-field-command-skill-range {
+		background: #1e1e1e;
+	}
+
+	.node--type-sacred-seals .skill-A, #sacred-seals .skill-A, .node--type-passive-skills .skill-A, #passive-skills .skill-A, .node--type-command-skills .skill-A, #command-skills .skill-A, .node--type-special-skills .skill-A, #special-skills .skill-A, .node--type-weapon-skills .skill-A, #weapon-skills .skill-A, .node--type-sacred-seals .skill-B, #sacred-seals .skill-B, .node--type-passive-skills .skill-B, #passive-skills .skill-B, .node--type-command-skills .skill-B, #command-skills .skill-B, .node--type-special-skills .skill-B, #special-skills .skill-B, .node--type-weapon-skills .skill-B, #weapon-skills .skill-B, .node--type-sacred-seals .skill-C, #sacred-seals .skill-C, .node--type-passive-skills .skill-C, #passive-skills .skill-C, .node--type-command-skills .skill-C, #command-skills .skill-C, .node--type-special-skills .skill-C, #special-skills .skill-C, .node--type-weapon-skills .skill-C, #weapon-skills .skill-C {
+		background: #222;
+	}
+
+	.view-skills-node .view-header, .view-skills-node h3 {
+		background: #1c2025;
+	}
+
+	.view-skills-node .views-row:not(.by-star), .view-skills-node .views-col {
+		border-color: #3e3e3e;
+	}
+
+	.view-skillsets-that-use-skill .views-field.views-field-title-1, .view-skillsets-that-use-special .views-field.views-field-title-1 {
+		background: #171717;
+		border-color: #3e3e3e;
+	}
+
+	.view-skillsets-that-use-skill .views-field.views-field-field-set-name, .view-skillsets-that-use-special .views-field.views-field-field-set-name, .sub-title-hero {
+		background: #252525;
+		border-color: #343434;
+	}
+
+	.field--name-field-page-content .event-div-active {
+		/*background-color: #1c2025;*/
+		border-color: #3e3e3e;
+		-webkit-filter: saturate(160%) brightness(80%);
+		filter: saturate(160%) brightness(80%);
+		color: #000;
+	}
+
+	#current-time-marker, .time-tick {
+		border-color: #fff;
+		z-index: 10;
+	}
+}
+
+@-moz-document domain("grandorder.gamepress.gg") {
+	#servant-stats {
+		background: #171717;
+		box-shadow: 0 0 5px #3e3e3e;
+	}
+	
+	#servant-stats span.bar-label {
+		background: rgba(23, 23, 23, 0.5)
+	}
+	#servant-stats span#hp-bar {
+		background: #3a6d39;
+	}
+	#servant-stats #hp-bar-max {
+		background: #1c561b;
+	}
+	#servant-stats span#atk-bar {
+		background: #a93737;
+	}
+	#servant-stats #atk-bar-max {
+		background: #b11818;
+	}
+
+	#ratingchart, .stats-growth-charts #legend {
+		filter: invert(100%) hue-rotate(180deg) saturate(1.5);
+	}
+
+	#growthChart {
+		filter: invert(100%) hue-rotate(180deg) saturate(6);
+	}
+
+	.view-servant-skills-node .views-row, .node--type-servant-skills article, .mystic-code-skills-row {
+		background: #171717;
+	}
+
+	.view-servant-skills-node .views-field.views-field-field-skill-unlock p {
+		border-color: #2e2e2e;
+	}
+
+	.view-class-skills-node .views-row {
+		background: #171717;
+		border-color: #3e3e3e;
+	}
+
+	.unit-sub-title, .np-main-title {
+		border-color: #3e3e3e;
+		background-color: #252525;
+	}
+
+	.field--type-comment .title {
+		background: #1c2025;
+	}
+
+	.comment-section {
+		background: #191919;
+		border-color: #2e2e2e;
+	}
+
+	.comment-item .content {
+		background: #171717;
+		border-color: #2e2e2e;
+	}
+
+	.view-tier-list-blocks .views-row {
+		background: #171717;
+		border-color: #2e2e2e;
+	}
+
+	.view-tier-list-blocks .views-field.views-field-nid a {
+		background: #1f1f1f;
+	}
+
+	.paragraph--type--_-4-servant, .right-servant-text {
+		border-color: #2e2e2e;
+	}
+
+	.paragraph--type--right-quote .right-quote-text, .paragraph--type--left-quote .left-quote-text {
+		background: #171717;
+		box-shadow: 0 0 5px #000;
+	}
+
+	.paragraph--type--left-quote .left-quote-arrow {
+		border-color: #171717 transparent transparent transparent;
+	}
+
+	.paragraph--type--right-quote .right-quote-arrow {
+		border-color: transparent #171717 transparent transparent;
+	}
+
+	.view-items h3 {
+		background: #1c2025;
+	}
+
+	.view-items .views-col {
+		border-color: #3e3e3e;
+	}
+
+	.view-servants-need-for-skill-up .view-header, .view-servants-need-to-ascend .view-header {
+		border-color: #1c2025;
+		background: #252525;
+	}
+
+	.view-servants-need-for-skill-up .views-col, .view-servants-need-to-ascend .views-col {
+		border-color: #2e2e2e;
+	}
+
+	.view-quest-pages .view-grouping-header {
+		background: #171717;
+	}
+
+	.view-quest-pages caption {
+		border-color: #1c2025;
+		background: #252525;
+	}
+
+	.view-quest-pages caption a {
+		color: #cecece;
+	}
+
+	div#main-quest {
+		background: #171717;
+		border-color: #2e2e2e;
+	}
+
+	.view-enemy-details-for-quest .view-grouping .view-grouping-header {
+		background: #171717;
+	}
+
+	.view-enemy-details-for-quest .view-grouping .view-grouping-content .view-grouping-header {
+		color: #cecece;
+		border-color: #1c2025;
+		background: #252525;
+	}
+
+	.featured-main .featured-item {
+		background: #252525;
+		border-color: #464646;
+	}
+	
+	.servant-new-layout #servant-subheader {
+		background: #171717;
+		border-color: #3e3e3e;
+		box-shadow: 0 0 5px #3e3e3e;
+	}
+	.servant-new-layout .deck-layout-new {
+		background: #171717;
+		border-color: #3e3e3e;
+	}
+	.servant-new-layout .servant-skill-single {
+		background: #171717;
+		border-color: #3e3e3e;
+	}
+	.servant-new-layout .view-craft-essences.view-id-craft_essences.view-display-id-bond_ce .views-row {
+		border-color: #3e3e3e;
+	}
+	.servant-new-layout .view-level-up-skill-recommendation .High td:first-child {
+		background: #1D2E1D;
+	}
+	.servant-new-layout .view-level-up-skill-recommendation .Low td:first-child {
+		background: #541515;
+	}
+	.servant-new-layout .view-level-up-skill-recommendation .Medium td:first-child {
+		background: #37371C;
+	}
+	
+	.view-id-discourse_block a.community-post-link {
+		border-color: #2e2e2e;
+		background: #171717;
+	}
+	.view-id-discourse_block .community-post-title {
+		color: #cecece;
+	}
+}
+
+@-moz-document domain("grandorder.gamepress.gg") {
+	/* temp for fgo event guide - prisma */
+
+	td[style="border: solid black 1.0pt;background: #ffb1b1;"], td[style="border: solid black 1.0pt; background: #ffb1b1"], td[style="border: solid black 1.0pt; background:#ffb1b1"] {
+		background: #4B1A1A !important;
+		border-color: #712727 !important;
+	}
+
+	td[style="border: solid black 1.0pt; background: #ffe9ec;"] {
+		background: #250D0D !important;
+		border-color: #4B1A1A !important;
+	}
+
+	article[id="node-172111"] tr:first-child td, td[style="border: solid black 1.0pt; background: #FFD5DF;"], td[style="width:18%; border: solid black 1.0pt; background: #FFD5DF;"], td[style="width:22%; border: solid black 1.0pt; background: #FFD5DF;"] {
+		background: #250D0D !important;
+		border-color: #4B1A1A !important;
+	}
+
+	td[style="border: solid black 1.0pt; background: #a6f1b9;"] {
+		background: #214121 !important;
+		border-color: #326332 !important;
+	}
+
+	td[style="border: solid black 1.0pt; background: #ffffc6;"] {
+		background-color: #4C4408 !important;
+		border-color: #726000 !important;
+	}
+
+	td[style="border: solid black 1.0pt; background: #d4ebf2"], td[style="border: solid black 1.0pt; background:#d4ebf2"] {
+		background: #1B374F !important;
+		border-color: #2E5C84 !important;
+	}
+
+	/* halloween rerun */
+
+	tr[bgcolor="#DDDDDD"] {
+		background-color: #262626;
+	}
+
+	tr[bgcolor="#FFFF99"] {
+		background-color: #4C4408 !important;
+	}
+
+	tr[bgcolor="#FF9999"] {
+		background: #4B1A1A !important;
+	}
+}
+
+@-moz-document domain("dragalialost.gamepress.gg") {
+	#character-stats {
+		background: #171717;
+		box-shadow: 0 0 5px #3e3e3e;
+	}
+
+	#character-stats .header-stats {
+		background-color: #242424;
+	}
+
+	#character-stats span#hp-bar {
+		background: #4C6703;
+	}
+
+	#character-stats span#attack-bar {
+		background: #B13B3B;
+	}
+
+	#character-stats span.stat-text {
+		color: #cecece;
+	}
+
+	#character-stats span.stat-text {
+		background: rgba(23, 23, 23, .8);
+	}
+
+	.hit-count {
+		border-color: #3e3e3e;
+	}
+
+	.view-ability-on-character-page span.ability-effect, .view-co-ability-on-character-page span.co-ability-effect {
+		border-color: #3e3e3e;
+	}
+
+	.mana-circle, .unbind-mats {
+		border-color: #3e3e3e;
+	}
+
+	.mana-circle .mana-circle-effect, .unbind-mats .mana-circle-effect {
+		background: #1c2025;
+	}
+
+	.mana-circle .mana-circle-effect + hr {
+		border-color: #1c2025 !important;
+	}
+
+	.view-tier-list-blocks .views-row, .view-tier-list-blocks-dragon .views-row {
+		border-color: #3e3e3e;
+	}
+
+	.featured-items .content-2-group-item {
+		background: #171717;
+		border-color: #2e2e2e;
+	}
+
+	/* tier list update message */
+	center[style=" border: 1px solid #ddd; padding: 10px; border-radius: 3px; background: #fff; "] {
+		background: #171717 !important;
+		border-color: #3e3e3e !important;
+	}
+}
+
+@-moz-document domain("epicseven.gamepress.gg") {
+	.devotion-skill {
+		background: #242424;
+		border-color: #3e3e3e;
+	}
+	
+	.cp-value-title {
+		background: #171717;
+	}
+	#hero-stats span#hp-bar {
+		background: #4C6703;
+	}
+	#hero-stats span#attack-bar {
+		background: #B13B3B;
+	}
+	#hero-stats span#speed-bar {
+		background: #1B7499;
+	}
+	#hero-stats span#defense-bar {
+		background: #363636;
+	}
+	.hero-sub-table tr:nth-child(3) .square-icon, .hero-sub-table tr:nth-child(4) .square-icon, .filter-table:nth-child(4) .inactive, .filter-table:nth-child(5) .inactive {
+		filter: invert(1);
+	}
+	.hero-intro-back, .specialty-skill, .equipment-stat-cell .main-stat-type, .equipment-stat-cell .sub-stat-type, .equipment-stat-cell .set-stat-type, .artifact-recommendation .artifact-cell, .team-comp .views-row {
+		border-color: #3e3e3e;
+	}
+	.awakening-level, .build-recommendation-title {
+		background: #2a2a2a;
+	}
+	#style-HP, #style-Eff-Res {
+		background: #1F557C;
+		color: #cecece;
+	}
+	#style-Atk, #style-CritC, #style-CritD, .artifact-requirement {
+		background: #771E1E;
+		color: #cecece;
+	}
+	#style-Spd, #style-Eff {
+		background: #216020;
+		color: #cecece;
+	}
+	#style-Def {
+		background: #7E581F;
+		color: #cecece;
+	}
+	#style-set {
+		background: #343434;
+		color: #cecece;
+	}
+
+	.hero-cell, #artifact-container .artifact-cell, #materials-container .materials-cell {
+		border-color: #555;
+		background: #171717;
+	}
+	#artifact-container .artifact-cell:hover, #materials-container .materials-cell:hover {
+		border-color: #555;
+	}
+	.cell-value, .materials-title {
+		color: #cecece;
+	}
+
+	.skill-holder {
+		border-color: #3e3e3e;
+	}
+
+	.material-page {
+		background: #171717;
+		box-shadow: 0 0 3px #3a3a3a;
+	}
+}
