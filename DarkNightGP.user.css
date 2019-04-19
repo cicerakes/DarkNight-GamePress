@@ -349,6 +349,17 @@
 		background: #171717;
 		border-color: #2e2e2e;
 	}
+
+	.field--name-field-page-content .event-div-active {
+		border-color: #3e3e3e;
+		-webkit-filter: saturate(160%) brightness(80%);
+		filter: saturate(160%) brightness(80%);
+		color: #000;
+	}
+	#current-time-marker, .time-tick {
+		border-color: #fff;
+		z-index: 10;
+	}
 }
 
 @-moz-document domain("fireemblem.gamepress.gg") {
@@ -493,11 +504,6 @@
 		-webkit-filter: saturate(160%) brightness(80%);
 		filter: saturate(160%) brightness(80%);
 		color: #000;
-	}
-
-	#current-time-marker, .time-tick {
-		border-color: #fff;
-		z-index: 10;
 	}
 
 	.field--name-field-summon-timer {
