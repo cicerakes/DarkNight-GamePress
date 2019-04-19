@@ -499,6 +499,11 @@
 		border-color: #fff;
 		z-index: 10;
 	}
+
+	.field--name-field-summon-timer {
+		background: #171717;
+		border-color: #3e3e3e;
+	}
 }
 
 @-moz-document domain("grandorder.gamepress.gg") {
