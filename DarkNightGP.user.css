@@ -654,6 +654,9 @@ sass colours 50,40
 		background: #171717;
 		border-color: #3e3e3e;
 	}
+	.servant-new-layout .field--name-field-servant-skills>.field__item {
+		background-color: #3e3e3e;
+	}
 	.servant-new-layout .view-craft-essences.view-id-craft_essences.view-display-id-bond_ce .views-row {
 		border-color: #3e3e3e;
 	}
