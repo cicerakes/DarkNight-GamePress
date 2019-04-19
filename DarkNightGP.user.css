@@ -857,12 +857,9 @@
 		color: #cecece;
 	}
 
-	.hero-cell, #artifact-container .artifact-cell, #materials-container .materials-cell {
+	.hero-cell {
 		border-color: #555;
 		background: #171717;
-	}
-	#artifact-container .artifact-cell:hover, #materials-container .materials-cell:hover {
-		border-color: #555;
 	}
 	.cell-value, .materials-title {
 		color: #cecece;
@@ -875,6 +872,11 @@
 	.material-page {
 		background: #171717;
 		box-shadow: 0 0 3px #3a3a3a;
+	}
+
+	#artifact-container .artifact-cell, #materials-container .materials-cell {
+		background: #171717;
+		border-color: #3e3e3e;
 	}
 
 	.view-taxonomy-term .view-content .views-row {
