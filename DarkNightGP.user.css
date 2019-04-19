@@ -808,6 +808,16 @@
 	#hero-stats span#defense-bar {
 		background: #363636;
 	}
+	.topic-reaction-table {
+		border-color: #3e3e3e;
+		background: #171717;
+	}
+	.median {
+		background: #242424;
+	}
+	.toggle-all-personality, .toggle-all-personality:focus {
+		background: #171717;
+	}
 	.hero-sub-table tr:nth-child(3) .square-icon, .hero-sub-table tr:nth-child(4) .square-icon, .filter-table:nth-child(4) .inactive, .filter-table:nth-child(5) .inactive {
 		filter: invert(1);
 	}
