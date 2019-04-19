@@ -867,4 +867,8 @@
 		background: #171717;
 		box-shadow: 0 0 3px #3a3a3a;
 	}
+
+	.view-taxonomy-term .view-content .views-row {
+		border-color: #3e3e3e;
+	}
 }
