@@ -279,6 +279,10 @@
 		color: #cecece;
 	}
 
+	.paragraph--type--featured-content-list .current-page {
+		background: #2e2e2e;
+	}
+
 	.paragraph--type--featured-content div>div:hover {
 		box-shadow: 0 0 15px #646464;
 	}
