@@ -279,12 +279,6 @@
 		color: #cecece;
 	}
 
-	.content-2-group-item {
-		background: #171717;
-		border-color: #3e3e3e;
-		box-shadow: 0 0 5px #3e3e3e;
-	}
-
 	.paragraph--type--featured-content div>div:hover {
 		box-shadow: 0 0 15px #646464;
 	}
@@ -345,6 +339,11 @@
 
 	.active {
 		background: #2e2e2e;
+	}
+
+	.featured-items .content-2-group-item, .paragraph--type--summon-units-4-featured- .summon-hero-container, .summon-units-4 .summon-hero-container {
+		background: #171717;
+		border-color: #2e2e2e;
 	}
 }
 
@@ -773,11 +772,6 @@
 
 	.view-tier-list-blocks .views-row, .view-tier-list-blocks-dragon .views-row {
 		border-color: #3e3e3e;
-	}
-
-	.featured-items .content-2-group-item {
-		background: #171717;
-		border-color: #2e2e2e;
 	}
 
 	/* tier list update message */
