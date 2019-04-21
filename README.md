@@ -10,7 +10,7 @@ Currently only tested on [Fire Emblem](https://fireemblem.gamepress.gg/), [Fate/
 
 ## Contributing
 ### Colour Scheme
-Start with text as `#cecece` and white background as `#1e1e1e`.
+Start with text as `#cecece` and main background as `#1e1e1e`.
 
 | Original | Dark | |
 |---|---|---|
