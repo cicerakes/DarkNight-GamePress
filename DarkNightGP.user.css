@@ -751,6 +751,44 @@
 		background: #143743 !important;
 		border-color: #20576A !important;
 	}
+
+	td[style="border: solid black 1.0pt; background: #FFE699;"], td[style="border: solid blue 1.0pt; background:#FFE699;"] {
+		background-color: #4C4408 !important;
+		border-color: #726000 !important;
+	}
+	span[style="color: #002060; font-size=12pt;"] {
+		color: #A3BCEF !important;
+	}
+
+	tr[bgcolor="#C0D0FE"] {
+		background: #1E2C54;
+		border-color: #2E4481;
+	}
+	tr[bgcolor="#C0D0FE"] td {
+		border-color: #2E4481 !important;
+	}
+
+	tr[bgcolor="#FFFBAF"] {
+		background: #4A4719;
+	}
+	tr[bgcolor="#FFFBAF"] td {
+		border-color: #746F27 !important;
+	}
+
+	tr[bgcolor="#FEC0F7"] {
+		background: #541E4E;
+	}
+	tr[bgcolor="#FEC0F7"] td {
+		border-color: #852F7B !important;
+	}
+
+	font[color="#000000"], span[style="color:black;"] {
+		color: #fff !important;
+	}
+
+	span[style="color:blue; font-size:10pt;"], [style="color:blue;"] {
+		color: #3a81ff !important;
+	}
 }
 @-moz-document domain("dragalialost.gamepress.gg") {
 	#character-stats {
