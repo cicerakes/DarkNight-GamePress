@@ -689,10 +689,9 @@
 	.view-id-discourse_block .community-post-title {
 		color: #cecece;
 	}
-}
 
-@-moz-document domain("grandorder.gamepress.gg") {
-	/* temp for fgo event guide - prisma */
+	/* events */
+	/* prisma */
 
 	td[style="border: solid black 1.0pt;background: #ffb1b1;"], td[style="border: solid black 1.0pt; background: #ffb1b1"], td[style="border: solid black 1.0pt; background:#ffb1b1"] {
 		background: #4B1A1A !important;
@@ -737,8 +736,22 @@
 	tr[bgcolor="#FF9999"] {
 		background: #4B1A1A !important;
 	}
-}
 
+	/* ccc */
+
+	td[style="border: solid black 1.0pt; background: #add8e6;"] {
+		background: #143743 !important;
+		border-color: #20576A !important;
+	}
+	span[style="color: #1e3164; font-size=12pt;"] {
+		color: #7891D6 !important;
+	}
+
+	td[style="width: 5%; border: solid black 1.0pt; background: #add8e6;"], td[style="width: 20%; border: solid black 1.0pt; background: #add8e6;"], td[style="width: 50%; border: solid black 1.0pt; background: #add8e6;"], td[style="width: 25%; border: solid black 1.0pt; background: #add8e6;"] {
+		background: #143743 !important;
+		border-color: #20576A !important;
+	}
+}
 @-moz-document domain("dragalialost.gamepress.gg") {
 	#character-stats {
 		background: #171717;
