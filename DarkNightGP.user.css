@@ -713,6 +713,11 @@
 		color: #cecece;
 	}
 
+	.item-image {
+		background: #171717;
+		box-shadow: 0 0 3px #3f3f3f;
+	}
+
 	/* events */
 	/* prisma */
 
