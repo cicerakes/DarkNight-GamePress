@@ -956,4 +956,8 @@
 	.view-taxonomy-term .view-content .views-row {
 		border-color: #3e3e3e;
 	}
+
+	.artifact-hero .view-content .views-row {
+		border-color: #3e3e3e;
+	}
 }
