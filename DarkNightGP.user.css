@@ -404,7 +404,7 @@
 		border-color: #2e2e2e;
 	}
 
-	.view-skills-node .views-row, .view-skills-node .feh-list-item, .feh-list-parent .views-row, .feh-list-parent .feh-list-item {
+	.view-skills-node .views-row, .view-skills-node .feh-list-item, .view-skills-node-paragraph .views-row, .view-skills-node-paragraph .feh-list-item, .feh-list-parent .views-row, .feh-list-parent .feh-list-item {
 		border-color: #3e3e3e;
 	}
 
