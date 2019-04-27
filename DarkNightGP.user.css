@@ -195,7 +195,7 @@
 		background-color: #171717;
 	}
 
-	#content-inner .field--type-text-long h3, #block-gamepressbase-content .field--name-field-title, #block-gamepressbase-content .sub-title {
+	#content-inner .field--type-text-long h3, #block-gamepressbase-content h3, #block-gamepressbase-content .field--name-field-title, #block-gamepressbase-content .sub-title {
 		background: #323232;
 		border-color: #515151;
 	}
