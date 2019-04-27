@@ -368,6 +368,21 @@
 	.field--name-field-accordion .ui-accordion .ui-accordion-content {
 		color: #cecece;
 	}
+
+	.view-id-discourse_block .views-row {
+		background: #171717;
+		border-color: #2e2e2e;
+	}
+	.view-id-discourse_block a.community-post-link {
+		border-color: #2e2e2e;
+		background: #171717;
+	}
+	.view-id-discourse_block a.community-post-link:last-child {
+		border-color: #2e2e2e;
+	}
+	.view-id-discourse_block .community-post-title {
+		color: #cecece;
+	}
 }
 
 @-moz-document domain("fireemblem.gamepress.gg") {
