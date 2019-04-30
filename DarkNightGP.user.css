@@ -98,6 +98,17 @@
 		border-color: #2e2e2e !important;
 	}
 
+	.register-page div#content-inner {
+		background: #171717 !important;
+	}
+	.status-messages .error {
+		background: #97484C;
+		color: #ffd0d1;
+	}
+	.status-messages .error a {
+		color: #ffd0d1;
+	}
+
 	.home-page-top-2 {
 		background: #252525;
 	}
