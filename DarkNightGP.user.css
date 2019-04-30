@@ -236,6 +236,13 @@
 	.modal-content, .gp-tier-modal .modal-content-gp-tier {
 		background-color: #181818;
 	}
+	.tier-filter {
+		background: #171717;
+		border-color: #3e3e3e;
+	}
+	.tier-filter-table .filter-active {
+		background: #3e3e3e;
+	}
 
 	.paragraph .field--name-field-title {
 		background: #252525;
@@ -949,5 +956,9 @@
 
 	.artifact-hero .view-content .views-row {
 		border-color: #3e3e3e;
+	}
+
+	.tier-filter-table:nth-of-type(3) img {
+		filter: invert(1);
 	}
 }
