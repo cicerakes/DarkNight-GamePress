@@ -241,7 +241,7 @@
 		border-color: #2e2e2e;
 	}
 
-	.modal-content {
+	.modal-content, .gp-tier-modal .modal-content-gp-tier {
 		background-color: #181818;
 	}
 
