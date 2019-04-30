@@ -227,20 +227,12 @@
 	.no-expl {
 		background: #1c2025;
 	}
-
-	.show-expl {
-		background-color: #2e4d33 !important;
-	}
-
-	.view-arena-offense-tier-list .views-row, .view-new-tier-lists .views-row {
+	.view-new-tier-lists .views-row, .view-arena-offense-tier-list .views-row, .view-tier-list-blocks-dragon .views-row {
 		border-color: #3e3e3e;
 	}
-
-	.view-na-tier-list-node .views-row {
-		background: #171717;
-		border-color: #2e2e2e;
+	.view-new-tier-lists .show-expl, .view-arena-offense-tier-list .show-expl, .view-tier-list-blocks-dragon .show-expl {
+		background-color: #2e4d33 !important;
 	}
-
 	.modal-content, .gp-tier-modal .modal-content-gp-tier {
 		background-color: #181818;
 	}
@@ -859,10 +851,6 @@
 
 	.mana-circle .mana-circle-effect + hr {
 		border-color: #1c2025 !important;
-	}
-
-	.view-tier-list-blocks .views-row, .view-tier-list-blocks-dragon .views-row {
-		border-color: #3e3e3e;
 	}
 
 	/* tier list update message */
