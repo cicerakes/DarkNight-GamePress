@@ -98,16 +98,21 @@
 		border-color: #2e2e2e !important;
 	}
 
-	.view-home-page-news-feed .views-row {
-		border-color: #2e2e2e;
+	.home-page-top-2 {
+		background: #252525;
 	}
-
+	.view-home-page-news-feed .new-post-url {
+		background: #171717;
+	}
 	.view-home-page-news-feed span.post-type {
 		color: #cecece;
 	}
-
 	.view-home-page-news-feed span.post-created-date {
 		color: #6e6e6e;
+	}
+	.frontpage .pager li.pager__item a {
+		background: #1e1e1e;
+		color: #cecece;
 	}
 
 	.menu-c {
