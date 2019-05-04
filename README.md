@@ -7,10 +7,12 @@ A dark/night theme for [gamepress.gg](https://gamepress.gg/).
 
 **This is a WIP.** Expect unfinished sections.
 
-Currently only tested on [Fire Emblem](https://fireemblem.gamepress.gg/), [Fate/Grand Order](https://grandorder.gamepress.gg/), [Dragalia Lost](https://dragalialost.gamepress.gg/), and [Epic Seven](https://epicseven.gamepress.gg/) sections.
+Currently only tested on [Fire Emblem](https://fireemblem.gamepress.gg/), [Fate/Grand Order](https://grandorder.gamepress.gg/), [Dragalia Lost](https://dragalialost.gamepress.gg/), and [Epic Seven](https://epicseven.gamepress.gg/) sections.  
+Feel free to [create issues](https://github.com/cicerakes/DarkNight-GamePress/issues) with links to the pages on untested sections that require fixing.
 
 ## Contributing
-Mainly looking for help with other sections of the site.
+Mainly looking for help with other sections of the site.  
+
 ### Colour Scheme
 Start with text as `#cecece` and main background as `#1e1e1e`.
 
