@@ -243,10 +243,10 @@
 	.no-expl {
 		background: #1c2025;
 	}
-	.view-new-tier-lists .views-row, .view-arena-offense-tier-list .views-row, .view-tier-list-blocks-dragon .views-row {
+	.view-new-tier-lists .views-row, .view-arena-offense-tier-list .views-row, .view-tier-list-blocks-dragon .views-row, .view-armor-tier-list .views-row, .view-flier-tier-list .views-row, .view-cavalry-tier-list .views-row {
 		border-color: #3e3e3e;
 	}
-	.view-new-tier-lists .show-expl, .view-arena-offense-tier-list .show-expl, .view-tier-list-blocks-dragon .show-expl {
+	.view-new-tier-lists .show-expl, .view-arena-offense-tier-list .show-expl, .view-tier-list-blocks-dragon .show-expl, .view-armor-tier-list .show-expl, .view-flier-tier-list .show-expl, .view-cavalry-tier-list .show-expl {
 		background-color: #2e4d33 !important;
 	}
 	.modal-content, .gp-tier-modal .modal-content-gp-tier {
