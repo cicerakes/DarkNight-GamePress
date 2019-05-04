@@ -973,4 +973,14 @@
 	.artifact-hero .view-content .views-row {
 		border-color: #3e3e3e;
 	}
+
+	.new-campsite-sim #campsite-simulator .unselected-tab {
+		background: #171717;
+	}
+	.new-campsite-sim #campsite-simulator #hero-list, .new-campsite-sim #campsite-simulator #roster-list, .new-campsite-sim #campsite-simulator .campsite-hero-search-row {
+		border-color: #3e3e3e;
+	}
+	.new-campsite-sim #campsite-simulator .selected-hero-team {
+		background: #2e2e2e;
+	}
 }
