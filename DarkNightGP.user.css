@@ -914,7 +914,7 @@
 	.toggle-all-personality, .toggle-all-personality:focus {
 		background: #171717;
 	}
-	.hero-sub-table tr:nth-child(3) .square-icon, .hero-sub-table tr:nth-child(4) .square-icon, .filter-table:nth-child(3) td img, .filter-table:nth-child(4) td img {
+	.tier-filter-table:nth-of-type(3) img, .hero-sub-table tr:nth-child(3) .square-icon, .hero-sub-table tr:nth-child(4) .square-icon, #hero-list-filters + .main-title + .topic-text .filter-table:nth-child(3) td img, #hero-list-filters + .main-title + .topic-text .filter-table:nth-child(4) td img {
 		filter: invert(1);
 	}
 	.hero-intro-back, .specialty-skill, .equipment-stat-cell .main-stat-type, .equipment-stat-cell .sub-stat-type, .equipment-stat-cell .set-stat-type, .artifact-recommendation .artifact-cell, .team-comp .views-row {
@@ -972,9 +972,5 @@
 
 	.artifact-hero .view-content .views-row {
 		border-color: #3e3e3e;
-	}
-
-	.tier-filter-table:nth-of-type(3) img {
-		filter: invert(1);
 	}
 }
