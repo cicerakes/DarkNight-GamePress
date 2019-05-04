@@ -962,7 +962,6 @@
 	}
 
 	#artifact-container .artifact-cell, #materials-container .materials-cell {
-		background: #171717;
 		border-color: #3e3e3e;
 	}
 
@@ -982,5 +981,12 @@
 	}
 	.new-campsite-sim #campsite-simulator .selected-hero-team {
 		background: #2e2e2e;
+	}
+
+	#skills-container .skills-cell {
+		border-color: #3e3e3e;
+	}
+	#artifact-container .artifact-cell, #artifact-container .materials-cell, #artifact-container .skills-cell, #materials-container .artifact-cell, #materials-container .materials-cell, #materials-container .skills-cell, #skills-container .artifact-cell, #skills-container .materials-cell, #skills-container .skills-cell {
+		background: #171717;
 	}
 }
