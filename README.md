@@ -1,6 +1,6 @@
 # Dark/Night GamePress
 
-[![Install directly with Stylus](https://img.shields.io/badge/Install%20directly%20with-Stylus-238b8b.svg)](https://raw.githubusercontent.com/cicerakes/DarkNight-GamePress/master/DarkNightGP.user.css)
+[![Install directly with Stylus](https://img.shields.io/badge/Install%20directly%20with-Stylus-238b8b.svg)](https://raw.githubusercontent.com/cicerakes/DarkNight-GamePress/master/DarkNightGP.user.css) ![GitHub tag (latest SemVer)](https://img.shields.io/github/tag/cicerakes/DarkNight-GamePress.svg?label=version)
 
 A dark/night theme for [gamepress.gg](https://gamepress.gg/).
 
