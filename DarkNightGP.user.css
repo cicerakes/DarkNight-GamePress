@@ -989,4 +989,11 @@
 	#artifact-container .artifact-cell, #artifact-container .materials-cell, #artifact-container .skills-cell, #materials-container .artifact-cell, #materials-container .materials-cell, #materials-container .skills-cell, #skills-container .artifact-cell, #skills-container .materials-cell, #skills-container .skills-cell {
 		background: #171717;
 	}
+
+	.specialty-skill-select option:first-child, .specialty-skill-select {
+		color: #5a5a5a !important;
+	}
+	.specialty-skill-select option, .specialty-skill-select[style="width: 100%; color: black;"] {
+		color: #cecece !important;
+	}
 }
