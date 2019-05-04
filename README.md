@@ -10,6 +10,7 @@ A dark/night theme for [gamepress.gg](https://gamepress.gg/).
 Currently only tested on [Fire Emblem](https://fireemblem.gamepress.gg/), [Fate/Grand Order](https://grandorder.gamepress.gg/), [Dragalia Lost](https://dragalialost.gamepress.gg/), and [Epic Seven](https://epicseven.gamepress.gg/) sections.
 
 ## Contributing
+Mainly looking for help with other sections of the site.
 ### Colour Scheme
 Start with text as `#cecece` and main background as `#1e1e1e`.
 
